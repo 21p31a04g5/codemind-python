@@ -1,14 +1,14 @@
 n=int(input())
 a,b=0,1
-x=[]
-x.append(a)
-x.append(b)
+z=[]
+z.append(a)
+z.append(b)
 for i in range(1000):
     c=a+b
     a=b
     b=c
-    x.append(c)
-if n in x:
+    z.append(c)
+if n in z:
     print("True")
 else:
     print("False")
