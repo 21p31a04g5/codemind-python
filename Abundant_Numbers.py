@@ -1,9 +1,9 @@
-def abn(n):
-    fs= sum([fctr for fctr in range(1, n) if n % fctr == 0])  
-    return fs> n  
-a = int(input())
-if abn(a):  
-    print("True");  
-else:  
-    print("False")  
-    
+n=int(input())
+c=[]
+for i in range(1,n):
+    if n%i==0:
+        c.append(i)
+if sum(c)>n:
+    print("True")
+else:
+    print("False")
