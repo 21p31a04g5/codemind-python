@@ -1,11 +1,11 @@
 n=int(input())
 a,b=0,1
-x=[]
-x.append(a)
-x.append(b)
+z=[]
+z.append(a)
+z.append(b)
 for i in range(n-2):
     c=a+b
     a=b
     b=c
-    x.append(c)
-print(*x)
+    z.append(c)
+print(*z)
