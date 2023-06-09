@@ -1,4 +1,4 @@
-import math 
+import math
 def pr(a):
     if a==1:
         return False
@@ -9,8 +9,11 @@ def pr(a):
         return True
 n=int(input())
 m=int(input())
-c=0
-for i in range (n,m+1):
+z=0
+for i in range(n,m+1):
     if pr(i):
-        c+=1
-print(c)
+        z+=1
+print(z)
+        
+        
+        
